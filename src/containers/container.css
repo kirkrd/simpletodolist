@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Merriweather|Pacifico&display=swap');
+button
+{
+    width: 10em;
+    height: 3.1em;
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+    text-shadow: 1px;
+    background-color: #ddd9d900
+}
+input
+{
+    font-size: 26px;
+    max-height:200em;
+    background-color: #88d8b0;
+}

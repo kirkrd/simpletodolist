@@ -5,6 +5,15 @@ import VisibleTodoList from './containers/VisibleTodoList'
 import './App.css'
 const App = () => (
   <div className="App">
+    <div className="App-header">
+     <div className="main">
+      <div className = "border">
+        <div className = "inner-cutout"> 
+          <h1 className="knockout">Summer 2019 <br/> Todolist</h1>
+        </div>
+      </div>
+    </div>
+    </div>
     <AddTodo />
     <VisibleTodoList />
     <Footer />

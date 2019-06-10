@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { addTodo } from '../actions'
-
+import "./container.css"
 // eslint-disable-next-line react/prop-types
 const AddTodo = ({ dispatch }) => {
   let input
@@ -18,8 +18,8 @@ const AddTodo = ({ dispatch }) => {
           input.value = ''
         }}
       >
-        <input ref={node => (input = node)} />
-        <button type="submit">Add Todo</button>
+        <input style={{width: "20em", height: "2em"}} ref={node => (input = node)} />
+        <button  type="submit">Add Todo</button>
       </form>
     </div>
   )

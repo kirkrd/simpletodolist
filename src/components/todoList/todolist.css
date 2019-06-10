@@ -2,9 +2,11 @@
 {
     text-align: center;
     color: white;
+    width: 60%;
 }
 .todoUl
 {
     list-style: none;
+    
 }
 
