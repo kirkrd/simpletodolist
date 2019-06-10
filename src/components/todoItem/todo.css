@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+.filterButton{
+    font-family: 'Merriweather', serif;
+    height: 2em;
+    width: 10em;
+    font-size: 1em;
+    background-color: #ffffff
+}
+.filterButton:disabled
+{
+    background-color: rgb(148, 148, 202);
+    color: white;
+}
