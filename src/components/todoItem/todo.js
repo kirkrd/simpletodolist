@@ -10,7 +10,7 @@ const Todo = ({ onClick, completed, text }) => (
     }}
   >
     <p className="todoText">
-    {text.charAt(0).toUpperCase() + text.slice(1)}
+    {text}
     {!completed && <TiInputChecked style={{color: "#ffe470", marginTop: "2px"}}/>}
     {completed && <TiInputChecked style={{color: "#a0ff75", marginTop: "2px"}}/>}
     </p>

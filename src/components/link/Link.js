@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
+import './Link.css'
 const Link = ({ active, children, onClick }) => (
 
   <button
@@ -9,7 +9,9 @@ const Link = ({ active, children, onClick }) => (
     disabled={active}
     style={{
       marginLeft: '4px',
-      fontFamily: ""
+      color: "black",
+      border: active ? "1px solid ": " 1px solid #ebdddd",
+      backgroundColor: active ? "#bbffcc" : "#fff787"
     }}
   >
     {children}

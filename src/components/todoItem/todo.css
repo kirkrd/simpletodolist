@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Merriweather&display=swap');
-.filterButton{
-    font-family: 'Merriweather', serif;
-    height: 2em;
-    width: 10em;
-    font-size: 1em;
-    background-color: #ffffff;
-}
-.filterButton:disabled
-{
-    background-color: rgb(148, 148, 202);
-    color: white;
-}
+
 li {
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0,0,0);
@@ -21,6 +10,13 @@ li {
 {
   font-family: 'Crimson Text', serif;
   font-size: 2em;
+  width: 600px;
+  max-width:900px;
+ 
+}
+.todoText::first-letter
+{
+  text-transform: capitalize;
 }
 @keyframes shake {
     10%, 90% {

@@ -9,14 +9,17 @@ const App = () => (
      <div className="main">
       <div className = "border">
         <div className = "inner-cutout"> 
-          <h1 className="knockout">Summer 2019 <br/> Todolist</h1>
+          <h1 className="knockout">Simple <br/> Todolist</h1>
         </div>
       </div>
     </div>
     </div>
-    <AddTodo />
-    <VisibleTodoList />
-    <Footer />
+    <div className="App-Container">
+      <AddTodo />
+      <VisibleTodoList />
+      <Footer />
+    </div>
+    
   </div>
 )
 

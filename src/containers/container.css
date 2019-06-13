@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Merriweather|Pacifico&display=swap');
-button
+.addTodoButton
 {
+    margin-left: 1px;
     width: 10em;
-    height: 3.1em;
+    height: 2.81em;
     font-family: "Pacifico", cursive;
-    font-size: 20px;
+    font-size: 1.27em;
     text-shadow: 1px;
-    background-color: #ddd9d900
+    background-color: #f5dcdcbd;
+    border: 1px solid;
+    color: rgba(7, 3, 3, 0.753);
 }
 input
 {
     font-size: 26px;
     max-height:200em;
-    background-color: #88d8b0;
+    background-color: #55fdbd96;
+    border: 1px solid;
+    font-family: "Crimson Text", serif;
+    color: rgba(32, 32, 32, 0.596)
 }

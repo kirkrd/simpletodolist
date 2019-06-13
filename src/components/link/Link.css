@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Merriweather|Pacifico&display=swap');
+
+.filterButton{
+    font-family: 'Pacifico', cursive;
+    height: 2em;
+    width: 10em;
+    font-size: 1em;
+    background-color: #7cecab;
+
+}
+.filterButton:disabled
+{
+    background-color: rgb(148, 148, 202);
+    color: white;
+}
